@@ -6,10 +6,7 @@ from itertools import product
 from pip._vendor.distlib.compat import raw_input
 import random
 import tkinter as tk
-<<<<<<< HEAD
 #from PIL import ImageTK, Image
-=======
->>>>>>> a05b0c598ce78694d2049f651ab8865ee542b4e9
 
 class App(tk.Frame):
    
@@ -23,7 +20,6 @@ class App(tk.Frame):
         self.rows = rows
         self.columns = columns
         
-<<<<<<< HEAD
         self.pieces = {}
         self.color1="white",
         self.color2="blue"
@@ -41,14 +37,6 @@ class App(tk.Frame):
         #self.W = ImageTK.PhotoImage(Image.open("Wumpus.png"))
         #self.H = ImageTK.PhotoImage(Image.open("Hero.png"))
         #self.M = ImageTK.PhotoImage(Image.open("Mage.png"))
-=======
-        self.canvas = tk.Canvas(self, width=540, height=540, borderwidth=0, highlightthickness=0)
-        self.canvas.pack(side="top", fill="both", expand="true")
-        self.rows = 9
-        self.columns = 9
-        self.cellwidth = 60
-        self.cellheight = 60
->>>>>>> a05b0c598ce78694d2049f651ab8865ee542b4e9
         self.rect = {}
         self.oval = {}
 
